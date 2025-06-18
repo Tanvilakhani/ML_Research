@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay
 import pandas as pd
-from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input
+from tensorflow.keras.applications.efficientnet import EfficientNetB0, preprocess_input
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
 from tensorflow.keras.models import Model
@@ -16,12 +16,12 @@ tf.config.threading.set_inter_op_parallelism_threads(6)
 tf.keras.mixed_precision.set_global_policy('float32')
 
 # File paths
-MODEL_PATH = 'models/mobilenetv2_fruits_trained.h5'
-CSV_PATH = 'results/report/mobilenetv2_training_history.csv'
-REPORT_PATH = 'results/report/mobilenetv2_classification_report.txt'
-METRICS_PLOT_PATH = 'results/metrics/mobilenetv2_training_metrics.png'
-CONF_MATRIX_PATH = 'results/metrics/mobilenetv2_confusion_matrix.png'
-CHECKPOINT_DIR = 'checkpoints_mobilenetv2'
+MODEL_PATH = 'models/efficientnetb0_fruits_trained.h5'
+CSV_PATH = 'results/report/efficientnetb0_training_history.csv'
+REPORT_PATH = 'results/report/efficientnetb0_classification_report.txt'
+METRICS_PLOT_PATH = 'results/metrics/efficientnetb0_training_metrics.png'
+CONF_MATRIX_PATH = 'results/metrics/efficientnetb0_confusion_matrix.png'
+CHECKPOINT_DIR = 'checkpoints_efficientnetb0'
 
 # Create directories
 for path in [MODEL_PATH, CSV_PATH, REPORT_PATH, METRICS_PLOT_PATH, CONF_MATRIX_PATH]:
@@ -36,7 +36,7 @@ NUM_CLASSES = 10
 TRAIN_DIR = r'C:\Users\admin\Documents\ML_research\MY_data\train'
 
 # Load and build model
-base_model = MobileNetV2(weights='imagenet', include_top=False, input_shape=(IMG_SIZE, IMG_SIZE, 3))
+base_model = EfficientNetB0(weights='imagenet', include_top=False, input_shape=(IMG_SIZE, IMG_SIZE, 3))
 x = base_model.output
 x = GlobalAveragePooling2D()(x)
 x = Dense(256, activation='relu')(x)
@@ -80,7 +80,7 @@ validation_generator = train_datagen.flow_from_directory(
 
 # Checkpoint callback
 checkpoint_callback = ModelCheckpoint(
-    filepath=os.path.join(CHECKPOINT_DIR, 'mobilenetv2_best.h5'),
+    filepath=os.path.join(CHECKPOINT_DIR, 'efficientnetb0_best.h5'),
     monitor='val_accuracy',
     save_best_only=True,
     verbose=1

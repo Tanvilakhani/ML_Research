@@ -1,2 +1,0 @@
-Model,Accuracy (%),Avg Inference Time (ms),Min Inference Time (ms),Repetitions
-resnet50_fruits_trained.h5,71.71,127.54,101.86,100

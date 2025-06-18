@@ -1,0 +1,4 @@
+Timestamp,Model,Architecture,Format,Runtime,Accuracy (%),Avg Inference Time (ms),Min Inference Time (ms),Repetitions
+2025-06-17 23:54:55,efficientnetb0_best.h5,EfficientNetB0,Keras,TensorFlow,93.07,81.98,59.14,100
+2025-06-18 13:11:28,mobilenetv2_best.h5,MobileNetV2,Keras,TensorFlow,88.88,60.91,40.43,100
+2025-06-18 13:18:58,resnet50_best.h5,ResNet50,Keras,TensorFlow,91.12,178.08,154.27,1
