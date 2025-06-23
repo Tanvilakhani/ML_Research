@@ -1,4 +1,4 @@
-# 🧠 ML Model Training & Inference Scripts
+Evaluating the Performance of different ML Algorithms
 
 This repository contains modular Python scripts for:
 
@@ -7,17 +7,16 @@ This repository contains modular Python scripts for:
 - Running inference using Keras and ONNX Runtime
 - Data balancing for training and testing
 
-## 📁 Folder Structure
+Folder Structure
 - `Train/` – Training scripts
 - `Inference/` – Inference scripts (Keras & ONNX)
 - `Data_balance/` – Data balancing for training/testing
 - `results/` – Output results
 - `convert_to_onnx.py` – Converts trained Keras models to ONNX
-- `Evaluating the performance of different ML algorithms.ipynb` – Notebook with model comparisons
 
-## 📂 Dataset
+Dataset
 
 Download the dataset used in this project here:  
-👉 [Dataset Link](https://your-dataset-link.com)
+CNN Task: Fruit classification https://www.kaggle.com/datasets/karimabdulnabi/fruit-classification10-class/data
 
-> Ideal for experimenting with deep learning models in a clean and modular setup.
+
