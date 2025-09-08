@@ -68,7 +68,7 @@ The RTX A2000 is an entry-level workstation GPU that provides efficient inferenc
 
 --- 
 
-**## Future Directions**
+🚀 Future Directions
 - Extend experiments to architectures like EfficientNetV2, ConvNeXt, and Vision Transformers.  
 - Test across diverse hardware platforms (ARM, Jetson, Apple M-series).  
 - Analyze energy efficiency and performance-per-watt.  
