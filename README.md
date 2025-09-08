@@ -35,7 +35,7 @@ This project uses the **Fruit Classification Dataset** containing **3,374 images
 ---
 
 ## 📂 Repository Structure
-```
+
 ├── Converting_models/ # Scripts for converting trained models
 ├── Onnx_runtime/ # Inference & evaluation using ONNX Runtime
 ├── Openvino/ # Inference & evaluation using OpenVINO
