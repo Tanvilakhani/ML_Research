@@ -46,7 +46,7 @@ This project uses the **Fruit Classification Dataset** containing **3,374 images
 ├── results/ # Benchmark results and evaluation outputs
 └── README.md # Project documentation
 
- 
+--- 
 
 **## Future Directions**
 - Extend experiments to architectures like EfficientNetV2, ConvNeXt, and Vision Transformers.  
