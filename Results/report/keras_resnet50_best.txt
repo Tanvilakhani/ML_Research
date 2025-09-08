@@ -1,0 +1,24 @@
+=== Keras Inference Report (ResNet50) ===
+Model: resnet50_best.h5
+Accuracy: 91.12%
+Average Inference Time per Image: 131.81 ms
+Minimum Inference Time Observed: 103.60 ms
+Peak RAM Usage Observed: 55.41 MB
+
+Per-class Performance:
+              precision    recall  f1-score   support
+
+       Apple       0.85      0.83      0.84        89
+      Banana       0.97      0.94      0.96       106
+     avocado       0.94      0.93      0.94       105
+      cherry       0.80      0.92      0.85       105
+        kiwi       0.98      0.99      0.99       105
+       mango       0.89      0.84      0.86       105
+      orange       0.88      0.95      0.91        97
+  pinenapple       0.96      0.96      0.96       105
+ stawberries       0.95      0.87      0.91       103
+  watermelon       0.91      0.86      0.88       105
+
+    accuracy                           0.91      1025
+   macro avg       0.91      0.91      0.91      1025
+weighted avg       0.91      0.91      0.91      1025

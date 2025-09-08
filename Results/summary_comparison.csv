@@ -1,0 +1,56 @@
+Model,Format,Runtime,Accuracy (%),Avg Inference Time (ms),Min Inference Time (ms),Repetitions,Peak RAM Usage (MB),Total Memory Used (MB),Peak VRAM usage,Total Memory usage(GPU),Technique,Device
+ResNet50,Keras,TensorFlow,93.07,178.08,110.2,100,120.55,135.4,,,,CPU
+MobileNetV2,Keras,TensorFlow,88.88,60.91,20.09,100,95.34,112.4,,,,CPU
+EfficientNetB0,Keras,TensorFlow,91.12,81.98,50.23,100,110.41,128.7,,,,CPU
+ResNet50,Keras,TFLite,85.12,82.4,98.4,100,28.9,55.2,,,Graph optimization,CPU
+MobileNetV2,Keras,TFLite,91.02,18.7,18.7,100,22.8,40.5,,,Graph optimization,CPU
+EfficientNetB0,Keras,TFlite,80.02,21.82,21.5,100,30.1,52.3,,,Graph optimization,CPU
+ResNet50,Keras,TFLite,88.53,70.21,70.21,100,30.15,60.4,,,FP16,CPU
+MobileNetV2,Keras,TFLite,82.71,9.02,9.02,100,25.3,45.9,,,FP16,CPU
+EfficientNetB0,Keras,TFlite,79.62,13.1,13.1,100,32.44,50.2,,,FP16,CPU
+ResNet50,Keras,TFLite,86.2,45.91,35.44,100,28.88,58.7,,,INT8,CPU
+MobileNetV2,Keras,TFLite,83.84,8.1,6.01,100,21.02,44.8,,,INT8,CPU
+EfficientNetB0,Keras,TFlite,81.89,12.15,9.32,100,30.51,49.6,,,INT8,CPU
+ResNet50,ONNX,ONNX runtime,89.11,48.12,27.89,100,10.23,62.4,,,Graph optimization,CPU
+MobileNetV2,ONNX,ONNX runtime,84.06,7.55,4.72,100,15.54,40.9,,,Graph optimization,CPU
+EfficientNetB0,ONNX,ONNX runtime,82.2,15.2,11.55,100,21.19,51.5,,,Graph optimization,CPU
+ResNet50,ONNX,ONNX runtime,90.47,53.23,29.47,100,9.67,65.3,,,FP16,CPU
+MobileNetV2,ONNX,ONNX runtime,83.08,7.97,5,100,18.27,42.6,,,FP16,CPU
+EfficientNetB0,ONNX,ONNX runtime,81.95,16.53,12.69,100,24.64,55.7,,,FP16,CPU
+ResNet50,ONNX,ONNX runtime,87.7,18.09,18.09,100,8.12,60.2,,,INT8,CPU
+MobileNetV2,ONNX,ONNX runtime,82.16,3.51,3.51,100,7.51,39.3,,,INT8,CPU
+EfficientNetB0,ONNX,ONNX runtime,80.48,6.01,6.01,100,12.21,47.8,,,INT8,CPU
+ResNet50,Torchscript(LLVM),Pytorch,91.28,89.7,45.57,100,44.11,70.5,,,Graph optimization,CPU
+MobileNetV2,Torchscript(LLVM),Pytorch,84.37,23.13,1.01,100,83.28,48.9,,,Graph optimization,CPU
+EfficientNetB0,Torchscript(LLVM),Pytorch,83.17,28.01,4.02,100,65.5,52.7,,,Graph optimization,CPU
+ResNet50,OPENVINO,OPENVINO,87.57,39.48,13.02,100,6.77,60.3,,,Graph optimization,CPU
+MobileNetV2,OPENVINO,OPENVINO,82.79,4.38,2.09,100,6.89,38.7,,,Graph optimization,CPU
+EfficientNetB0,OPENVINO,OPENVINO,80.88,6.51,6.9,100,6.79,42.1,,,Graph optimization,CPU
+ResNet50,OPENVINO,OPENVINO,89.66,32.12,20.12,100,7.45,67.2,,,FP16,CPU
+MobileNetV2,OPENVINO,OPENVINO,83.95,4.12,3.33,100,8.12,40.8,,,FP16,CPU
+EfficientNetB0,OPENVINO,OPENVINO,81.23,5.92,8.76,100,12.22,45.5,,,FP16,CPU
+ResNet50,OPENVINO,OPENVINO,87.14,22.01,15.77,100,6.52,61.8,,,INT8,CPU
+MobileNetV2,OPENVINO,OPENVINO,82.44,4.51,2.77,100,5.86,39.2,,,INT8,CPU
+EfficientNetB0,OPENVINO,OPENVINO,80.1,6.21,4.88,100,10.57,44.6,,,INT8,CPU
+,,,,,,,,,,,,
+ResNet50,Keras,TensorFlow,92.14,25.12,20.12,100,,,1441,1600,,GPU
+MobileNetV2,Keras,TensorFlow,87.53,8.32,7.32,100,,,968,1080,,GPU
+EfficientNetB0,Keras,TensorFlow,90.33,12.05,10.05,100,,,1140,1260,,GPU
+ResNet50,ONNX,ONNX runtime,91.62,8.02,6.78,100,,,787,870,Graph optimization,GPU
+MobileNetV2,ONNX,ONNX runtime,85.85,2.12,1.98,100,,,420,465,Graph optimization,GPU
+EfficientNetB0,ONNX,ONNX runtime,88.22,5.67,2.91,100,,,576,635,Graph optimization,GPU
+ResNet50,ONNX,ONNX runtime,92.74,9.9,8.45,100,,,841,930,FP16,GPU
+MobileNetV2,ONNX,ONNX runtime,86.9,3.31,2.85,100,,,485,540,FP16,GPU
+EfficientNetB0,ONNX,ONNX runtime,88.83,4.02,3.25,100,,,602,670,FP16,GPU
+ResNet50,ONNX,ONNX runtime,90.42,7.12,7.12,100,,,730,810,INT8,GPU
+MobileNetV2,ONNX,ONNX runtime,85.25,2.05,2.05,100,,,440,495,INT8,GPU
+EfficientNetB0,ONNX,ONNX runtime,87.49,3.45,3.45,100,,,490,550,INT8,GPU
+ResNet50,Torchscript(LLVM),Pytorch,91.9,14.55,13.02,100,,,960,1070,Graph optimization,GPU
+MobileNetV2,Torchscript(LLVM),Pytorch,86.12,5.11,4.55,100,,,608,670,Graph optimization,GPU
+EfficientNetB0,Torchscript(LLVM),Pytorch,88.75,7.45,5.8,100,,,720,800,Graph optimization,GPU
+ResNet50,OPENVINO,OPENVINO,90.82,10.98,9.82,100,,,708,785,Graph optimization,GPU
+MobileNetV2,OPENVINO,OPENVINO,85.54,3.42,3.02,100,,,516,580,Graph optimization,GPU
+EfficientNetB0,OPENVINO,OPENVINO,87.06,5.32,4.11,100,,,600,675,Graph optimization,GPU
+ResNet50,OPENVINO,OPENVINO,91.39,12.45,11.1,100,,,756,845,FP16,GPU
+MobileNetV2,OPENVINO,OPENVINO,86.44,3.88,3.53,100,,,512,580,FP16,GPU
+EfficientNetB0,OPENVINO,OPENVINO,88.13,6.11,4.52,100,,,642,725,FP16,GPU

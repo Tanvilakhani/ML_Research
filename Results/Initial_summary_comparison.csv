@@ -1,0 +1,24 @@
+Timestamp,Model,Architecture,Format,Runtime,Accuracy (%),Avg Inference Time (ms),Min Inference Time (ms),Repetitions,Peak RAM Usage (MB),Total Memory Used (MB),Total Runtime (s),Optimization Option
+2025-06-17 23:54:55,efficientnetb0_best.h5,EfficientNetB0,Keras,TensorFlow,93.07,81.98,59.14,100,,,,
+2025-06-18 13:11:28,mobilenetv2_best.h5,MobileNetV2,Keras,TensorFlow,88.88,60.91,40.43,100,,,,
+2025-06-18 13:18:58,resnet50_best.h5,ResNet50,Keras,TensorFlow,91.12,178.08,154.27,1,,,,
+2025-06-18 23:02:53,resnet50_best.h5,ResNet50,Keras,TensorFlow,91.12,136.97,93.14,100,,,,
+2025-07-02 12:33:31,resnet50_fruits_scripted.pt,ResNet50,TorchScript,PyTorch,91.71,80.76,47.18,1,,,,
+2025-07-02 12:42:21,resnet50_fruits_scripted.pt,ResNet50,TorchScript,PyTorch,91.71,105.89,68.55,1,42.18,,,
+2025-07-02 15:19:39,resnet50_fruits_scripted.pt,ResNet50,TorchScript,PyTorch,91.71,90.28,45.41,100,44.78,,,
+2025-07-02 18:04:07,mobilenetv2_fruits_scripted.pt,MobileNetV2,TorchScript,PyTorch,89.17,20.47,0.0,100,53.87,,,
+2025-07-02 19:03:19,efficientnetb0_fruits_scripted.pt,EfficientNet-B0,TorchScript,PyTorch,89.46,27.62,5.0,100,65.14,,,
+2025-07-06 21:44:50,resnet50_best.h5,ResNet50,Keras,TensorFlow,91.12,138.64,104.38,100,,,,
+2025-07-07 01:37:58,resnet50_best.h5,ResNet50,Keras,TensorFlow,91.12,131.81,103.6,100,55.41,,,
+2025-07-07 03:30:46,mobilenetv2_best.h5,MobileNetV2,Keras,TensorFlow,88.88,64.13,45.26,100,45.36,,,
+2025-07-07 05:56:19,efficientnetb0_best.h5,EfficientNetB0,Keras,TensorFlow,93.07,67.46,47.38,100,60.37,,,
+2025-07-07 12:15:16,resnet50_fruits.onnx,ResNet50,ONNX,ONNX Runtime,91.12,53.23,29.47,100,9.67,,,
+2025-07-07 12:36:33,mobilenetv2_fruits,MobileNetV2,ONNX,ONNX Runtime,88.88,7.97,5.0,100,18.27,,,
+2025-07-07 13:14:39,efficientnetb0_fruits,EfficientNetB0,ONNX,ONNX Runtime,93.07,16.53,12.69,100,24.64,,,
+2025-07-22 15:10:19,resnet50_fruits_scripted.pt,ResNet50,TorchScript,PyTorch,91.71,89.7,45.57,100,44.11,-46.74,9299.24,
+2025-08-01 14:41:27,mobilenetv2_fruits_scripted(2).pt,MobileNetV2,TorchScript,PyTorch,85.85,23.13,1.01,100,83.28,88.39,2476.89,
+2025-08-06 16:07:16,efficientnetb0_fruits_scripted(2).pt,EfficientNetB0,TorchScript,PyTorch,85.27,28.01,4.02,100,65.5,69.4,2985.2,
+2025-08-10 12:58:48,resnet50_fruits.xml,ResNet50,OpenVINO IR,OpenVINO,12.49,39.48,13.02,100,6.77,11.06,4105.68,Graph Optimization
+2025-08-10 13:10:53,mobilenet_v2.xml,MobileNetV2,OpenVINO IR,OpenVINO,75.02,4.38,0.0,100,6.89,11.78,489.24,Graph Optimization
+2025-08-10 13:37:29,efficientnet_b0.xml,EfficientNet-B0,OpenVINO IR,OpenVINO,9.46,6.51,0.0,100,6.79,11.44,708.98,Graph Optimization
+2025-08-10 14:38:20,efficientnetb0_fruits_openvino.xml,EfficientNet-B0,OpenVINO IR,OpenVINO,9.46,8.08,0.0,100,6.78,11.72,865.18,Graph Optimization
