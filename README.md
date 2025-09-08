@@ -23,14 +23,15 @@ Download the dataset used in this project here:
 ---
 
 ## 📂 Repository Structure
-Converting_models/ # Scripts for converting trained models
-Onnx_runtime/ # Inference & evaluation using ONNX Runtime
-Openvino/ # Inference & evaluation using OpenVINO
-TFlite/ # Inference & evaluation using TensorFlow Lite
-Tensorflow_runtime/ # Inference & evaluation with native TensorFlow
-Torchscript(LLVM)/ # Inference & evaluation using TorchScript
-Training_scripts/ # Training scripts for CNN models
-results/ # Benchmark results and evaluation outputs
-README.md # Project documentation
+```
+├── Converting_models/ # Scripts for converting trained models
+├── Onnx_runtime/ # Inference & evaluation using ONNX Runtime
+├── Openvino/ # Inference & evaluation using OpenVINO
+├── TFlite/ # Inference & evaluation using TensorFlow Lite
+├── Tensorflow_runtime/ # Inference & evaluation with native TensorFlow
+├── Torchscript(LLVM)/ # Inference & evaluation using TorchScript
+├── Training_scripts/ # Training scripts for CNN models
+├── results/ # Benchmark results and evaluation outputs
+└── README.md # Project documentation
 
 
