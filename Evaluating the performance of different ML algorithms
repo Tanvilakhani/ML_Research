@@ -1,7 +1,0 @@
-Model Training & Inference Scripts
-
-  This repository contains modular Python scripts for:
-  Training deep learning models (EfficientNetB0, MobileNetV2, ResNet50)
-  ONNX conversion and runtime inference
-  Data balancing for training and testing
-  Inference using both Keras and ONNX Runtime
