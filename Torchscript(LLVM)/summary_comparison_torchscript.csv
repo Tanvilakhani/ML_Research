@@ -1,0 +1,7 @@
+Timestamp,Model,Architecture,Format,Runtime,Technique,Accuracy (%),Avg Inference Time (ms),Min Inference Time (ms),Peak GPU Alloc (MB),Peak GPU Reserved (MB),Peak CPU Mem (MB),Total GPU Mem Used (MB),Total Mem Used (MB),Total Runtime (s),Repetitions
+8/24/2025 13:29,resnet50_fruits_scripted.pt,ResNet,TorchScript,PyTorch,Graph Optimization,91.71,4.3,0,111.88,142,255,142,397,894.57,100
+8/24/2025 13:36,mobilenetv2_fruits_scripted(2).pt,MobileNetV2,TorchScript,PyTorch,Graph Optimization,85.85,1.49,0,27.39,50,226.7,50,276.7,227.29,100
+8/24/2025 13:41,efficientnetb0_fruits_scripted(2).pt,EfficientNetB0,TorchScript,PyTorch,Graph Optimization,85.27,2.14,0,33.46,56,247.95,56,303.95,284.09,100
+8/24/2025 17:00,resnet50_fruits_scripted.pt,ResNet,TorchScript,PyTorch,Graph Optimization,91.71,41.14,18.68,0,0,61.28,0,61.28,490.4,10
+8/24/2025 17:05,mobilenetv2_fruits_scripted(2).pt,mobilenetv2,TorchScript,PyTorch,Graph Optimization,85.85,17.97,0,0,0,95.88,0,95.88,258.6,10
+8/24/2025 17:10,mobilenetv2_fruits_scripted(2).pt,mobilenetv2,TorchScript,PyTorch,Graph Optimization,85.85,18.07,0,0,0,96.14,0,96.14,251.16,10

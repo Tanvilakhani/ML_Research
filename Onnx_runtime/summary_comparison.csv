@@ -1,0 +1,6 @@
+Timestamp,Model,Architecture,Format,Runtime,Avg Inference Time (ms),Min Inference Time (ms),Peak RAM Usage (MB),Total Memory Used (MB),Total Runtime (s),Repetitions,Optimization Option
+2025-08-17 19:52:15,resnet50_fruits_fp16.onnx,ResNet50,ONNX,ONNX Runtime (CUDA),2.85,2.51,419.43,427.02,473.31,100,FP16
+2025-08-18 10:20:27,resnet50_fruits_fp16.onnx,ResNet50,ONNX,ONNX Runtime (CUDA),2.45,2.13,447.29,451.67,820.82,100,FP16
+2025-08-18 10:59:19,resnet50_fruits_fp16.onnx,ResNet50,ONNX,ONNX Runtime (CUDA),2.53,2.14,465.65,469.83,795.95,100,FP16
+2025-08-24 13:35:08,mobilenetv2_fruits_fp16.onnx,mobilenetv2,ONNX,ONNX Runtime (CUDA),1.39,1.07,535.26,542.32,721.02,100,FP16
+2025-08-24 14:05:01,efficientnetb0_fruits_fp16.onnx,efficientnetb0,ONNX,ONNX Runtime (CUDA),2.37,1.91,630.81,633.13,794.85,100,FP16

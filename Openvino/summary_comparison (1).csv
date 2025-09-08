@@ -1,0 +1,6 @@
+Timestamp,Model,Architecture,Format,Runtime,Accuracy (%),Avg Inference Time (ms),Min Inference Time (ms),Peak RAM Usage (MB),Total Memory Used (MB),Total Runtime (s),Repetitions,Optimization Option
+2025-08-22 12:14:18,mobilenetv2.xml,MobileNetV2,OpenVINO IR,OpenVINO (CPU),75.02,1.7,0.0,0.68,32.27,211.56,100,f16
+2025-08-22 12:25:34,mobilenetv2.xml,MobileNetV2,OpenVINO IR,OpenVINO (GPU),74.73,4.14,0.0,9.53,148.52,473.64,100,f16
+2025-08-22 12:56:33,resnet50.xml,MobileNetV2,OpenVINO IR,OpenVINO (GPU),12.59,16.75,1.0,8.46,258.73,1754.76,100,f16
+2025-08-22 13:16:23,efficientnetb0.xml,EfficientNetB0,OpenVINO IR,OpenVINO (GPU),9.46,8.81,0.0,2.3,345.16,947.34,100,f16
+2025-08-22 13:42:36,efficientnetb0.xml,EfficientNetB0,OpenVINO IR,OpenVINO (GPU),9.46,8.72,0.0,8.05,320.55,919.51,100,f16
