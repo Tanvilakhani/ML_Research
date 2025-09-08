@@ -16,10 +16,22 @@ This repository contains modular Python scripts for:
 ---
 
 ## 📊 Dataset
-**Fruit Classification Dataset – 10 Classes**
-Download the dataset used in this project here:
-👉 [CNN Task: Fruit classification](https://www.kaggle.com/datasets/karimabdulnabi/fruit-classification10-class/data)  
 
+This project uses the **Fruit Classification Dataset** containing **3,374 images** across **10 fruit classes**:
+
+- 🍎 Apple  
+- 🍊 Orange  
+- 🥑 Avocado  
+- 🥝 Kiwi  
+- 🥭 Mango  
+- 🍍 Pineapple  
+- 🍓 Strawberries  
+- 🍌 Banana  
+- 🍒 Cherry  
+- 🍉 Watermelon  
+
+👉 [Download the dataset here](https://www.kaggle.com/datasets/karimabdulnabi/fruit-classification10-class/data)
+ 
 ---
 
 ## 📂 Repository Structure
@@ -34,4 +46,12 @@ Download the dataset used in this project here:
 ├── results/ # Benchmark results and evaluation outputs
 └── README.md # Project documentation
 
+ 
+
+**## Future Directions**
+- Extend experiments to architectures like EfficientNetV2, ConvNeXt, and Vision Transformers.  
+- Test across diverse hardware platforms (ARM, Jetson, Apple M-series).  
+- Analyze energy efficiency and performance-per-watt.  
+- Explore mixed-precision and quantization-aware training techniques.  
+- Benchmark inference in real-time and batch workloads.  
 
