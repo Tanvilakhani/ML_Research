@@ -33,9 +33,29 @@ This project uses the **Fruit Classification Dataset** containing **3,374 images
 👉 [Download the dataset here](https://www.kaggle.com/datasets/karimabdulnabi/fruit-classification10-class/data)
  
 ---
+## 🖥️ Experimental Environment
+
+### Hardware & OS
+
+#### CPU (ASUS Laptop)
+- **Processor:** Intel® Core™ i5-1035G1  
+- **Cores / Threads:** 4 physical cores / 8 logical processors (Hyper-Threading enabled)  
+- **Operating System:** Microsoft Windows 11, Version 24H2 (Build 26100.5074)  
+
+The Intel® Core™ i5-1035G1 provides a balanced power-efficient CPU environment suitable for evaluating CPU-bound inference performance.
+
+#### GPU  (Local Workstation)
+- **Model:** NVIDIA RTX A2000  
+- **Driver Version:** 560.81  
+- **CUDA Version:** 12.6  
+- **Memory:** 6 GB GDDR6  
+- **Operating System:** Microsoft Windows 11, Version 23H2 (Build 22631.5768)  
+
+The RTX A2000 is an entry-level workstation GPU that provides efficient inference acceleration with a balance between performance and power consumption.
+
 
 ## 📂 Repository Structure
-
+```
 ├── Converting_models/ # Scripts for converting trained models
 ├── Onnx_runtime/ # Inference & evaluation using ONNX Runtime
 ├── Openvino/ # Inference & evaluation using OpenVINO
