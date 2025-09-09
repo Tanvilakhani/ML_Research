@@ -21,8 +21,7 @@ This repository contains modular Python scripts for:
   Quantized versions of these models are not directly provided.  
   Instead, a conversion script is available in this repository that allows you to generate quantized models from the main checkpoints.  
 
-
-https://drive.google.com/drive/folders/1rtfWYDJOBK14rIjJ-UP0RNkvgdWdBmhT?usp=sharing
+---
 
 ## 📊 Dataset
 
