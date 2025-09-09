@@ -14,6 +14,15 @@ This repository contains modular Python scripts for:
 - Performance Evaluation with standardized metrics and result logging
 
 ---
+## Models
+
+  The primary pre-trained models required for inference can be downloaded from [this Google Drive link](https://drive.google.com/drive/folders/1rtfWYDJOBK14rIjJ-UP0RNkvgdWdBmhT?usp=sharing).
+
+  Quantized versions of these models are not directly provided.  
+  Instead, a conversion script is available in this repository that allows you to generate quantized models from the main checkpoints.  
+
+
+https://drive.google.com/drive/folders/1rtfWYDJOBK14rIjJ-UP0RNkvgdWdBmhT?usp=sharing
 
 ## 📊 Dataset
 
