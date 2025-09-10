@@ -129,13 +129,11 @@ report = classification_report(y_true, y_pred, target_names=class_names, zero_di
 # === Print Report ===
 print(f"\n=== ONNX Runtime Inference Report ({architecture}) on {device} ===")
 print(f"Model: {os.path.basename(model_path)}")
-print(f"Accuracy: {accuracy * 100:.2f}%")
 print(f"Average Inference Time per Image: {avg_inference_time:.2f} ms")
 print(f"Minimum Inference Time Observed: {min_inference_time:.2f} ms")
 print(f"Peak RAM Usage Observed (per image): {peak_ram_usage:.2f} MB")
 print(f"Total Memory Used During Inference (process): {total_ram_used:.2f} MB")
 print(f"Total Runtime (All Images): {total_runtime:.2f} seconds\n")
-print("Per-class Performance:")
 print(report)
 
 # === Save TXT Report ===
